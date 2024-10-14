@@ -5,7 +5,7 @@ const bookingSchema = new mongoose.Schema({
     date: { type: Date, required: true },
     bookings: [{
         timeSlot: { type: Number, required: true },
-        bookedBy: { type: String, default: null } // Not required, defaults to null
+        bookedBcy: { type: String, default: null } // Not required, defaults to null
     }]
 });
 
